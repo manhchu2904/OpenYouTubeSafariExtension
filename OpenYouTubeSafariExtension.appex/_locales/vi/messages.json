@@ -1,0 +1,10 @@
+{
+    "extension_name": {
+        "message": "Mở trong youtube",
+        "description": "Tên của phần mở rộng."
+    },
+    "extension_description": {
+        "message": "Hiện thông báo mở trong Youtube cho Youtube được cài ngoài.",
+        "description": "Mô tả của phần mở rộng."
+    }
+}

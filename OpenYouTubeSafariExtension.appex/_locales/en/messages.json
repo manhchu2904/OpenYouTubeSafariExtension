@@ -1,10 +1,10 @@
 {
     "extension_name": {
-        "message": "Open in YouTube",
+        "message": "OpenYoutube",
         "description": "The display name for the extension."
     },
     "extension_description": {
-        "message": "Displays an Open in YouTube alert for sideloaded YouTube",
+        "message": "Displays an Open in Youtube alert for sideloaded YT",
         "description": "Description of what the extension does."
     }
 }

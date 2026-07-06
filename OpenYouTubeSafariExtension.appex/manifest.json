@@ -1,5 +1,5 @@
 {
-    "manifest_version": 3,
+    "manifest_version": 2,
     "default_locale": "en",
 
     "name": "__MSG_extension_name__",
@@ -15,7 +15,8 @@
     },
 
     "background": {
-        "service_worker": "background.js"
+        "scripts": [ "background.js" ],
+        "persistent": false
     },
 
     "content_scripts": [{
@@ -23,7 +24,7 @@
         "matches": [ "*://*.youtube.com/*" ]
     }],
 
-    "action": {
+    "browser_action": {
         "default_popup": "popup.html",
         "default_icon": {
             "16": "images/toolbar-icon-16.png",
